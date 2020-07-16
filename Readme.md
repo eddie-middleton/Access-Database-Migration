@@ -16,7 +16,7 @@ The following comments mat be helpful in troubleshooting:
 This is a command line project that takes a filename (including path) as input:
 
 ```
-<AccessDatabaseMigration [FilePath\Filename.extension]>
+AccessDatabaseMigration <FilePath\Filename.extension>
 ```
 
 Output, in the form of a log and SQL script, are written to the same location.
