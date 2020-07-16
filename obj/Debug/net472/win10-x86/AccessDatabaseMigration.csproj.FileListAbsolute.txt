@@ -1,0 +1,9 @@
+C:\Users\eddie\Documents\Development\AccessDatabaseMigration\bin\Debug\net472\win10-x86\AccessDatabaseMigration.exe.config
+C:\Users\eddie\Documents\Development\AccessDatabaseMigration\bin\Debug\net472\win10-x86\AccessDatabaseMigration.exe
+C:\Users\eddie\Documents\Development\AccessDatabaseMigration\bin\Debug\net472\win10-x86\AccessDatabaseMigration.pdb
+C:\Users\eddie\Documents\Development\AccessDatabaseMigration\obj\Debug\net472\win10-x86\AccessDatabaseMigration.csprojAssemblyReference.cache
+C:\Users\eddie\Documents\Development\AccessDatabaseMigration\obj\Debug\net472\win10-x86\AccessDatabaseMigration.AssemblyInfoInputs.cache
+C:\Users\eddie\Documents\Development\AccessDatabaseMigration\obj\Debug\net472\win10-x86\AccessDatabaseMigration.AssemblyInfo.cs
+C:\Users\eddie\Documents\Development\AccessDatabaseMigration\obj\Debug\net472\win10-x86\AccessDatabaseMigration.csproj.CoreCompileInputs.cache
+C:\Users\eddie\Documents\Development\AccessDatabaseMigration\obj\Debug\net472\win10-x86\AccessDatabaseMigration.exe
+C:\Users\eddie\Documents\Development\AccessDatabaseMigration\obj\Debug\net472\win10-x86\AccessDatabaseMigration.pdb

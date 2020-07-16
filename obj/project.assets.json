@@ -1,0 +1,56 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {},
+    ".NETFramework,Version=v4.7.2/win10-x86": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": []
+  },
+  "packageFolders": {
+    "C:\\Users\\eddie\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\eddie\\Documents\\Development\\AccessDatabaseMigration\\AccessDatabaseMigration.csproj",
+      "projectName": "AccessDatabaseMigration",
+      "projectPath": "C:\\Users\\eddie\\Documents\\Development\\AccessDatabaseMigration\\AccessDatabaseMigration.csproj",
+      "packagesPath": "C:\\Users\\eddie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\eddie\\Documents\\Development\\AccessDatabaseMigration\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\eddie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win10-x86": {
+        "#import": []
+      }
+    }
+  }
+}
