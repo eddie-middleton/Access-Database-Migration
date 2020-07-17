@@ -48,14 +48,9 @@ namespace EMid.Utility.DatabaseMigration
             // Check whether a command line argument has been provided
             if (args.Length == 0)
             {
-                // Default applied for testing... uncomment code below for live
-                Console.WriteLine("No database path provided as a command line argument. Default being applied... ");
-                databaseFile = @"C:\Users\Eddie\Documents\Development\ProjectResources\PersonalFinance\PersonalFinance.accdb";
-                databasePath = @"C:\Users\Eddie\Documents\Development\ProjectResources\PersonalFinance";
-                
-                // Console.WriteLine("No database path provided as a command line argument. Terminating... ");
-                // Console.ReadLine();
-                // System.Environment.Exit(1);
+                Console.WriteLine("No database path provided as a command line argument. Terminating... ");
+                Console.ReadLine();
+                System.Environment.Exit(1);
             } 
             // Check that the specified file exists
             else if (!File.Exists(args[0]))
