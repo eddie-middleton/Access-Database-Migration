@@ -133,7 +133,7 @@ namespace EMid.Utility.DatabaseMigration
                     {
                         currentColumn.Name = row.ColumnName.ToString();
                         currentColumn.Type = MapDataType((int) row.ColumnDataType);
-                        if (currentColumn.Type == "STRING" )
+                        if (currentColumn.Type == "VARCHAR" )
                         {
                             currentColumn.Type += " (" + row.ColumnLength.ToString() + ")";
                         }
@@ -321,7 +321,7 @@ namespace EMid.Utility.DatabaseMigration
             if (decimalType.Contains(typeID))       { mappedDataType = "DECIMAL"; }
             if (doubleType.Contains(typeID))        { mappedDataType = "DOUBLE"; }
             if (intType.Contains(typeID))           { mappedDataType = "INTEGER"; }
-            if (stringType.Contains(typeID))        { mappedDataType = "STRING"; }
+            if (stringType.Contains(typeID))        { mappedDataType = "VARCHAR"; }
             
             // Now return the data type
             return mappedDataType;
