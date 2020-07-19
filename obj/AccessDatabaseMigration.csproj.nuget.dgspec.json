@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eddie\\Documents\\Development\\AccessDatabaseMigration\\AccessDatabaseMigration.csproj": {}
+    "C:\\Users\\eddie\\Documents\\Development\\AccessDatabaseMigration\\AccessDatabaseMigration.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eddie\\Documents\\Development\\AccessDatabaseMigration\\AccessDatabaseMigration.csproj": {
+    "C:\\Users\\eddie\\Documents\\Development\\AccessDatabaseMigration\\AccessDatabaseMigration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eddie\\Documents\\Development\\AccessDatabaseMigration\\AccessDatabaseMigration.csproj",
+        "projectUniqueName": "C:\\Users\\eddie\\Documents\\Development\\AccessDatabaseMigration\\AccessDatabaseMigration.csproj",
         "projectName": "AccessDatabaseMigration",
-        "projectPath": "C:\\Users\\Eddie\\Documents\\Development\\AccessDatabaseMigration\\AccessDatabaseMigration.csproj",
-        "packagesPath": "C:\\Users\\Eddie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eddie\\Documents\\Development\\AccessDatabaseMigration\\obj\\",
+        "projectPath": "C:\\Users\\eddie\\Documents\\Development\\AccessDatabaseMigration\\AccessDatabaseMigration.csproj",
+        "packagesPath": "C:\\Users\\eddie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eddie\\Documents\\Development\\AccessDatabaseMigration\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Eddie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eddie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,7 +37,7 @@
       },
       "frameworks": {
         "net472": {
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

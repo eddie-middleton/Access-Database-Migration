@@ -133,6 +133,10 @@ namespace EMid.Utility.DatabaseMigration
                     {
                         currentColumn.Name = row.ColumnName.ToString();
                         currentColumn.Type = MapDataType((int) row.ColumnDataType);
+                        if (currentColumn.Type == "STRING" )
+                        {
+                            currentColumn.Type += " (" + row.ColumnLength.ToString() + ")";
+                        }
                         currentColumn.IsNullable = (bool) row.ColumnNullable;
                         currentColumn.IsPrimaryKey = false;
                         columnList.Add(currentColumn);
