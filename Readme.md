@@ -7,10 +7,10 @@ The target for my implementation was SQLite, so this may need some tweaking to f
 ## Guidelines
 
 The following comments mat be helpful in troubleshooting: 
-* The build targets .NET 4.7.2. This is a 32-bit application, targeting a 'Win-X86' runtime.
+* The build targets .NET 4.7.2. This is a 32-bit application, targeting a '<Win-X86>' runtime.
 * To read the Access files a Microsoft Access Runtime. This build targets the 32-bit 2010 runtime.
 * The output SQL script has the potential to destroy existing information if table names are the same. **Care and appropriate backups are recommended. **
-* The current version does not support multiple primary keys. A file will be created, but with more than one column marked 'Primary Key'. This will cause the load to fail unless (a) the file is manually edited; or (b) the multiple keys are removed from the source database.
+* The current version does not support multiple primary keys. A file will be created, but with more than one column marked '<Primary Key>'. This will cause the load to fail unless (a) the file is manually edited; or (b) the multiple keys are removed from the source database.
 
 ## Running the Application
 
