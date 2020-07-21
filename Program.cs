@@ -14,6 +14,17 @@
  *               - https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlconnection.getschema?view=dotnet-plat-ext-3.1
  */
 
+//  Future Refinements and Developments:
+//  TODO:   Implement support for composite primary keys
+//  TODO:    - Move method to add 'primary key' to column description out of SchemaColumn struct
+//  TODO:    - Count number of primary keys per table in ScriptCreator
+//  TODO:    - If PKs = 1, then write this as part of the column specification
+//  TODO:    - If there is more than one key then add a constrain at the end of the column definitions.
+//
+//  TODO:   Modify the ScriptCreator to to facilitate write a script suitable for SQL Server.
+//          There are a differences in the syntax between different engines, for example in the supported data types
+//          or the way that auto increment fields are implemented. Switches and different constants can support this.
+
 /// <summary>
 /// Namespace declarations
 /// </summary>
